@@ -1,0 +1,28 @@
+/*
+em - от текущего шоифта
+% - от родительской ширины
+rem - от стиля html
+vw – 1% ширины окна
+vh – 1% высоты окна
+vmin – наименьшее из (vw, vh), в IE9 обозначается vm
+vmax – наибольшее из (vw, vh)
+*/
+body {
+  height: auto; /* Высота блока */
+  width: auto; /* Ширина блока */
+  padding-left: auto; /* Отступ от текста слева */
+  background: url(assets/background2.jpg) repeat-y;
+  background-size: cover;
+  color: rgb(53, 3, 13);
+}
+h1 {
+  text-align: center;
+  font: italic 40px serif;
+  color: #b60315;
+  text-shadow: -0 -1px 1px #ffffff, 0 -1px 1px #ffffff, -0 1px 1px #ffffff,
+  0 1px 1px #ffffff, -1px -0 1px #ffffff, 1px -0 1px #ffffff,
+  -1px 0 1px #ffffff, 1px 0 1px #ffffff, -1px -1px 1px #ffffff,
+  1px -1px 1px #ffffff, -1px 1px 1px #ffffff, 1px 1px 1px #ffffff,
+  -1px -1px 1px #ffffff, 1px -1px 1px #ffffff, -1px 1px 1px #ffffff,
+  1px 1px 1px #ffffff;
+}
