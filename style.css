@@ -11,7 +11,7 @@ body {
   height: auto; /* Высота блока */
   width: auto; /* Ширина блока */
   padding-left: auto; /* Отступ от текста слева */
-  background: url(assets/background2.jpg) repeat-y;
+  background: url(/benua/background2.jpg) repeat-y;
   background-size: cover;
   color: rgb(53, 3, 13);
 }
